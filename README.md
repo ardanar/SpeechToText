@@ -101,7 +101,7 @@ Metin: "Türkiye, Asya ve Avrupa kıtalarında yer alan güzel bir ülkedir."
 
 ### Senaryo 2: Sayı Okuma Pratiği
 ```
-Metin: "Bu yıl 2024, 3 yıl önce 2021'di."
+Metin: "Bu yıl 2025, 3 yıl önce 2022 idi."
 → Rakamları hem yazı hem rakam olarak söyleyebilirsiniz
 ```
 
