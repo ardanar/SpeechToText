@@ -1,0 +1,23 @@
+:root {
+  --bg: #f7f7fb;
+  --text: #111827;
+  --accent: #2563eb;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app {
+  padding: 2rem;
+}
+
+.sample {
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}

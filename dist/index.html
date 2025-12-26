@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türkçe Okuma Koçu - React</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind (CDN for prototype) -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1111d4",
+            "primary-hover": "#0e0eb8",
+            "primary-light": "#EEF2FF",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101022",
+            "surface-light": "#ffffff",
+            "surface-dark": "#1a1a2e",
+            "text-main": "#0d0d1b",
+            "text-secondary": "#4c4c9a",
+            "accent-green": "#059669",
+            "accent-red": "#dc2626",
+          },
+          fontFamily: {
+            "display": ["Lexend", "sans-serif"],
+            "body": ["Noto Sans", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: 'Lexend', sans-serif; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    .material-symbols-outlined.filled { font-variation-settings: 'FILL' 1; }
+
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+    @keyframes pulse-ring {
+      0% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(17, 17, 212, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(17, 17, 212, 0); }
+      100% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(17, 17, 212, 0); }
+    }
+    .mic-pulse { animation: pulse-ring 2s infinite; }
+  </style>
+  <script type="module" crossorigin src="/assets/index-B9KKs0MZ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BCTXUHU6.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white transition-colors duration-200">
+  <div id="root"></div>
+</body>
+</html>
